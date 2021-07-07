@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "heroku-buildpack-emberjs" && exit 0

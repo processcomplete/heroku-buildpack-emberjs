@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "-----> Compiling"
+echo "       Set BUILD_DIR"
+export BUILD_DIR=$1
+
+echo "       Building Ember project"
+cd $BUILD_DIR
+ember build --environment production
